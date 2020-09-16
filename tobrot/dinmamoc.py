@@ -20,55 +20,55 @@ from tobrot.get_cfg import get_config
 class Commandi:
     LEECH = get_config(
         "COMMANDI_LEECH",
-        "leech"
+        "vleech"
     )
     PURGE = get_config(
         "COMMANDI_PURGE",
-        "purge"
+        "vpurge"
     )
     YTDL = get_config(
         "COMMANDI_YTDL",
-        "ytdl"
+        "vytdl"
     )
     STATUS = get_config(
         "COMMANDI_STATUS",
-        "status"
+        "vstatus"
     )
     CANCEL = get_config(
         "COMMANDI_CANCEL",
-        "cancel"
+        "vcancel"
     )
     EXEC = get_config(
         "COMMANDI_EXEC",
-        "exec"
+        "vexec"
     )
     EVAL = get_config(
         "COMMANDI_EVAL",
-        "eval"
+        "veval"
     )
     RENAME = get_config(
         "COMMANDI_RENAME",
-        "rename"
+        "vrename"
     )
     UPLOAD = get_config(
         "COMMANDI_UPLOAD",
-        "upload"
+        "vupload"
     )
     HELP = get_config(
         "COMMANDI_HELP",
-        "help"
+        "vhelp"
     )
     SAVETHUMBNAIL = get_config(
         "COMMANDI_SAVETHUMBNAIL",
-        "savethumbnail"
+        "vsave"
     )
     CLEARTHUMBNAIL = get_config(
         "COMMANDI_CLEARTHUMBNAIL",
-        "clearthumbnail"
+        "vclear"
     )
     GET_RCLONE_CONF_URI = get_config(
         "COMMANDI_GET_RCLONE_CONF_URI",
-        "getrcloneconfuri"
+        "geturi"
     )
     UPLOAD_LOG_FILE = get_config(
         "COMMANDI_UPLOAD_LOG_FILE",
